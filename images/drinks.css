@@ -1,0 +1,157 @@
+body {
+	text-align: center;
+	color: #000;
+	background-color: whitesmoke;
+	background-size: cover;
+	font-family: bookman old style;
+	font-size:20px;
+}
+
+#main-menu {
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr ;
+	background-color: rosybrown;
+
+	
+}
+.container > div {
+	padding: 5px;
+	border: 2px grey solid;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+
+.container {
+	display:grid;
+	grid-gap: 2px;
+	grid-template-columns: 1fr ;
+	padding: 5px;
+}
+
+#box1 {
+	grid-column: 1/2;
+	grid-row: 3/3;
+	font-size: 5px;
+	padding: 1px 3px;
+	background: slategrey;
+}
+
+#box2 {
+	grid-column: 2/3;
+	grid-row: 3/3;
+	font-size: 5px;
+	padding: 1px 3px;
+	background: rosybrown;
+}
+
+#box3 {
+	grid-column: 3/3;
+	grid-row: 3/3;
+	font-size: 5px;
+	padding: 1px 3px;
+	background: slategrey;
+}
+
+h1{
+    font-family: bookman old style;
+    font-size: 15px;
+    border: 2px white solid;
+    width: 50%;
+    margin: auto;
+    padding: 21px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rosybrown;
+}
+p{
+	 background-color: #464646
+}
+#box4 {
+	grid-column: 1/2;
+	grid-row: 4/4;
+	padding: 5px 10px;
+	background: whitesmoke;
+}
+h2{
+	font-family:century;
+	font-size: 20px;
+	margin: 0px;
+
+}
+
+#box5 {
+	grid-column: 2/3;
+	grid-row: 4/4;
+	text-align: left;
+	list-style: none;
+	margin-bottom: 0px;
+	grid-gap:2px;
+	padding: 50px;
+}
+
+
+#box6 {
+	grid-column: 3/3;
+	grid-row: 4/4;
+	text-align: left;
+	list-style: none;
+	margin-bottom: 0px;
+	grid-gap:2px;
+	padding: 10px;
+	background: whitesmoke;
+}
+#box7 {
+	grid-column: 1/2;
+	grid-row: 5/5;
+	font-size: 5px;
+	padding: 2px 5px;
+	background: rosybrown;
+
+}
+#box8 {
+	grid-column: 2/3;
+	grid-row: 5/5;
+	font-size: 5px;
+	padding: 1px 3px;
+	background: slategrey;
+}
+
+#box9 {
+	grid-column: 3/3;
+	grid-row: 5/5;
+	background: rosybrown;
+}
+#box10 {
+	grid-column: 1/2;
+	grid-row: 6/6;
+	padding: 50px;
+	text-align: left;
+	font-size: 20px;
+}
+#box11 {
+	grid-column: 2/3;
+	grid-row: 6/6;
+	font-size: 20px;
+	padding: 1px 3px;
+	background: whitesmoke;
+	text-align: left;
+}
+#box12 {
+	grid-column: 3/3;
+	grid-row: 6/6;
+}
+
+
+.finale {
+	padding: 30px;
+	margin-bottom: 5px;
+	color:maroon;
+	text-align: center;
+	font-family: Verdana;
+}
+a {
+	text-decoration: none;
+}
